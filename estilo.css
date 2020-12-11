@@ -1,0 +1,1188 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    border: 0%;
+}
+
+
+main, section, header, h2{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+
+body{
+    background-color: rgb(70, 70, 70);
+}
+
+
+
+main {
+
+    height:1300px;
+    background-image: linear-gradient(rgb(39, 39, 39), rgb(126, 126, 126) ) ;
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+    
+}
+
+section{
+
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0%;
+    background-color: black;
+    
+}
+
+
+header{
+
+    height: 80px;
+    background-color: black;
+    position: fixed;
+    left: 50%; 
+    margin-left: -480px;
+    z-index: 996;
+    margin-top: 0%;
+    width: 960px;
+}
+
+
+#logo-slider{
+
+    height: 80px; 
+    width: 300px;
+
+    background-color: black;
+
+    position: fixed;
+    left: 50%; 
+    margin-left: -480px;
+    margin-top: 0%;
+    float: left;
+
+    z-index: 997;
+   
+}
+
+
+#slider{
+    height: 80px;
+    width: 80px;
+    background-color: white;
+    background-image: url(IMAGENES/logo/Logo_header.png);
+    background-size: cover;
+    float: left;
+
+    z-index: 999;
+}
+
+
+
+h1{
+    float: left;
+    color: white;
+    font-family: 'Squada One', cursive;
+
+    margin-left: 20px;
+    line-height: 80px;
+}
+
+nav{
+
+    background-color: rgb(100, 100, 100);
+    width: 240px;
+    float: right;
+    position: relative;
+}
+
+li{
+    list-style: none;
+}
+
+ul a{
+
+    width: 80px;
+    height: 80px;
+    
+}
+
+
+#inicio{
+    background-image: url("IMAGENES/logo/home.png");
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;    
+    float: left;
+}
+
+
+
+#galeria{
+
+    background-color: rgb(201, 201, 201);
+    float: left;
+    background-image: url("IMAGENES/logo/galeria.png");
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    
+}
+
+#informacion{
+
+    background-image: url("IMAGENES/logo/Perfil.png");
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    float: right;
+   
+
+}
+
+
+
+
+#box1-fondo{
+
+    background-color: black;
+    margin-left: 0px;
+    height: 180px;
+    width: 740px;
+    position: absolute;
+    margin-top: 200px;  
+
+}
+
+#box1-1{
+
+    background-color: crimson;
+    height: 90px;
+    width: 200px;
+    position: absolute;
+    margin-top: 245px ;
+    margin-left: 150px;
+    border: white solid 4px;
+    
+
+    background-image: url("https://i.ibb.co/WG0hK62/box1-1.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+#box1-2{
+
+    background-color: rgb(133, 36, 57);
+    height: 255px;
+    width: 210px;
+    position: absolute;
+    margin-top: 145px;
+    margin-left: 390px;
+    padding: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+}
+
+#box1-3{
+
+    background-color: rgb(237, 99, 179);
+    height: 120px;
+    width: 120px;
+    position: absolute;
+    margin-top: 225px;
+    margin-left: 600px;
+    border: solid;
+    border-color: white;
+    
+
+    background-image: url("IMAGENES/logo/Profile-pic.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+.cajas2{
+
+    margin: 5px;
+    
+}
+
+
+#contenedor-2{
+
+    background-color: black;
+    height: 400px;
+    width: 700px;
+    float: right;
+    margin-top: 600px;
+    padding: 5px;
+    
+}
+
+
+#box2-1{
+
+    background-color: rgb(76, 99, 93);;
+    height: 200px;
+    width: 290px;
+    float: left;
+    
+      
+    background-size: cover;
+    background-image: url("https://i.ibb.co/GtBgDB5/c-batmanday.jpg");
+    background-position: 50% 10%
+}
+
+#div2-1{
+    height: 200px;
+    width: 290px;
+}
+
+#box2-2{
+
+    background-color: rgb(23, 46, 46);
+    height: 95px;
+    width: 250px;
+    float: left;
+
+   
+    background-size: cover;
+    background-image: url("https://i.ibb.co/PtM2J8v/c-birrita-4.jpg");
+    background-position: 50% 50%
+
+}
+
+#div2-2{
+    height: 95px;
+    width: 250px;
+}
+
+#box2-3{
+    background-color: rgb(44, 51, 60);
+    height: 95px;
+    width: 250px;
+    float: left;
+    margin-top: 5px;
+
+    background-size: cover;
+    background-image: url("https://i.ibb.co/SJdZYD8/c-plant.jpg");
+    background-position: 50% 30%
+
+
+}
+
+#div2-3{
+    height: 95px;
+    width: 250px;
+}
+
+#box2-4{
+
+    background-color: rgb(37, 118, 101);
+    height: 170px;
+    width: 200px;
+    float: left;
+
+    background-size: cover;
+    background-image: url("https://i.ibb.co/k2cJTky/c-celular-02.jpg");
+    background-position: 50% 10%
+    
+}
+
+#div2-4{
+    height: 170px;
+    width: 200px;
+}
+
+
+#box2-5{
+
+    background-color: rgb(37, 118, 101);
+    height: 170px;
+    width: 340px;
+    float: left;
+
+    background-size: cover;
+    background-image: url("https://i.ibb.co/hFp8CFs/c-nave-04-2k.jpg");
+    background-position: 50% 10%;
+}
+
+#div2-5{
+    height: 170px;
+    width: 340px;
+}
+
+
+
+#portfolio{
+
+    height: 1600px;
+    width: 955px;
+    
+    background-color: black;
+    position: relative;
+    padding-top: 20px;
+    padding-left: 5px;
+    align-items: center;
+
+
+}
+
+
+h2{
+    color: white;
+    font-size: 100px;
+}
+
+
+
+#vid-1{
+        
+    width: auto;
+    height: 100px;
+    
+
+}
+
+
+.cuadrilla{
+
+    float: left;
+    background: #34373C;
+    margin: 8px;
+    line-height: 0;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    user-select: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    box-sizing: border-box;
+    background-size: 129px;
+    border-radius: 2px;
+
+
+
+    background-size: 30%;
+    background-position: 50% 50%;
+    background-image: url(IMAGENES/c-nave\ 04\ 2k.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*FOOTER*/    
+
+
+
+footer{
+
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0%;
+  
+}
+
+
+
+#boton-contenedor{
+
+    width: auto;
+    height: 200px;
+    
+    margin-bottom: 55px;
+    background-image: linear-gradient(rgb(49, 49, 49), rgb(102, 102, 102), rgb(49, 49, 49));
+    background-size: 80%;
+    margin: 0%;
+    border: 0%;
+    padding: 0%;
+
+    position: relative;
+
+}
+
+#boton-div{
+    position: relative;
+    line-height: 50px;
+}
+
+#boton-contacto{
+
+   
+    float: right;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    align-items: center;
+    margin: 10px;
+ 
+    
+    display: block;
+    width: 170px;
+    height: 50px;
+    border-radius: 10px;
+    top: 4rem;
+    
+    margin-left: 43%;
+    background-color: grey;
+    position: absolute;
+    
+    /*margin-top: auto;*/
+    
+}
+
+
+
+#contenedor-3{
+
+    float: left;
+    height: 170px;
+    width: 960px;
+    margin-top: 0px;
+    display: block;
+    padding-top: 8px;
+   position: relative;
+}
+
+.circulo{
+
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    display: block;
+    margin: 10px;
+    margin-top: 8px;
+    
+}
+
+
+#a-box3-1{
+  
+    background-color: rgb(172, 77, 77);
+    float: left;
+    margin-left: 20px;
+
+    background-size: 70%;
+    background-image: url("IMAGENES/logo/IG.png");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+#a-box3-2{
+
+    background-color:rgb(161, 78, 78);
+    float: left;
+    margin-left: 235px;
+
+    background-size: 40%;
+    background-image: url("IMAGENES/logo/YT.png");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+
+#a-box3-3{
+    
+    background-color: rgb(169, 112, 112);
+    float: right;
+    margin-right: 20px;
+
+    background-size: 40%;
+    background-image: url("IMAGENES/logo/IN.png");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    
+}
+
+
+#contenedor-4{
+    background-color: black;
+    height: 360px;
+    
+}
+
+#foo-1{
+    background-color: white;
+    float: left;
+    width: 200px;
+    height: 150px;
+    margin: 15px;
+}
+
+#foo-2{
+    background-color: rgb(181, 181, 181);
+    float: left;
+    width: 200px;
+    height: 150px;
+    margin: 15px;
+}
+
+#foo-3{
+    background-color: rgb(87, 87, 87);
+    float: left;
+    width: 250px;
+    height: 110px;
+    margin: 15px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+#redes{
+    background-color: white;
+    height: 50px;
+    width: 150px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 15px;
+}
+
+#redes a{
+    text-decoration: none;
+    color: black;
+   
+    line-height: 50px; 
+    text-align: center;
+}
+
+
+
+
+/*ACCIONES*/
+
+
+header nav a:hover{
+
+    transform: scale(1.05);
+    transition: all 90ms ease;
+}
+
+
+@keyframes slider-animacion{
+
+    from{
+        left: 0;
+
+    }
+
+    to{
+        left: 200px;
+    }
+
+}
+
+
+
+#slider:hover{
+
+   transform: rotate(100deg)  100ms ease;
+
+
+}
+
+
+
+#contenedor-2 .cajas2:hover{
+    
+    transform: scale(1.05);
+    transition: all 90ms ease;
+}
+
+#contenedor-1 .cajas1:hover{
+    background-color: rgb(252, 106, 106);
+    transform: scale(1.05);
+    transition: all 90ms ease;
+
+}
+
+.circulo:hover{
+    transform: scale(1.1);
+    transition: all 90ms ease;
+    background-color:red;
+   
+}
+
+
+
+
+/*Hover de BYN a Color*/
+
+
+#box2-1:hover{
+    background-image: url("https://i.ibb.co/T20xtM2/b-batmanday.png");
+
+}
+
+
+#box2-2:hover{
+    background-image: url("https://i.ibb.co/nQyrqLX/b-birrita-4.png");
+
+
+}
+
+#box2-3:hover{
+    background-image: url("https://i.ibb.co/qFpXK9R/b-plant.png");
+
+
+}
+
+#box2-4:hover{
+    background-image: url("https://i.ibb.co/RgS4jzf/b-Moto-g5.png");
+
+
+}
+
+#box2-5:hover{
+    background-image: url("https://i.ibb.co/2Sm4NkS/b-nave-04.png");
+
+}
+
+
+
+
+
+
+
+#boton-contacto:hover{
+
+    border: white solid 1px;
+}
+
+
+
+#boton-contacto:active{
+
+    background-image: linear-gradient(rgb(93, 99, 100), rgb(55, 55, 55));
+    text-decoration: none;
+    color:grey;
+
+}
+
+
+
+.cuadrilla:hover{
+
+    border: white 3px solid;
+    
+    background-position: 50% 50%;
+    background-image: url("https://i.ibb.co/2Sm4NkS/b-nave-04.png");
+    background-repeat: no-repeat;
+    
+    animation: zoom 100ms ease;
+
+}
+
+
+@keyframes zoom{
+   
+  
+
+    0% {
+        transform: scale(1.0);
+    }
+    100% {
+        transform: scale(1.05);
+    }
+
+    
+   
+}
+
+
+
+
+@media all and (min-width: 600px) and (max-width: 1023px){
+
+    body{
+        background-color: rgb(70, 70, 70);
+    }
+    
+    
+    
+    main {
+    
+        height:1300px;
+        background-image: linear-gradient(rgb(39, 39, 39), rgb(126, 126, 126) ) ;
+        margin-left: auto;
+        margin-right: auto;
+        width: 580px;
+        
+    }
+    
+    section{
+    
+        width: 580px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0%;
+        background-color: black;
+        
+    }
+    
+    
+    header{
+    
+        height: 80px;
+        
+        position: fixed;
+        left: 50%; 
+        margin-left: -290px;
+                
+        width: 580px;
+    }
+    
+    
+    
+    #logo-slider{
+
+        height: 80px; 
+        width: 280px;
+    
+        background-color: black;
+    
+        position: fixed;
+        left: 50%; 
+        margin-left: -290px;
+      
+       
+    }
+    
+
+
+    nav{
+    
+        background-color: rgb(100, 100, 100);
+        width: 240px;
+        float: right;
+        position: relative;
+    }
+    
+
+    
+    ul a{
+    
+        width: 80px;
+        height: 80px;
+        
+    }
+    
+    
+    #inicio{
+        
+        background-size: 50% 50%;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;    
+        float: left;
+    }
+    
+    
+    
+    #galeria{
+    
+        background-color: rgb(201, 201, 201);
+        float: left;
+        background-image: url("IMAGENES/logo/galeria.png");
+        background-size: 50% 50%;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        
+    }
+    
+    #informacion{
+    
+        background-image: url("IMAGENES/logo/Perfil.png");
+        background-size: 50% 50%;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        float: right;
+       
+    
+    }
+    
+    
+    
+    #box1-fondo{
+ 
+        height: 380px;
+        width: 580px;
+    
+    }
+    
+    #box1-1{
+
+        height: 135px;
+        width: 300px;
+
+        position: absolute;
+
+        margin-top: 245px;
+        margin-left: 19px;
+   
+
+    }
+    
+    #box1-2{
+    
+        
+        height: 255px;
+        width: 210px;
+       
+        position: absolute;
+
+        float: right;
+        margin-top: 245px;
+        margin-left: 350px;
+        padding: 5px;
+        padding-right: 5px;
+        padding-top: 10px;
+    }
+    
+    #box1-3{
+    
+      
+        height: 120px;
+        width: 120px;
+      
+        margin-top: 400px;
+        margin-left: 19px;
+        float: left;
+        
+ 
+    }
+    
+    
+   
+   
+    img{
+
+        width: 100%;
+        height: auto;
+
+    }
+
+    .cajas2{
+    
+        margin: 5px;
+        
+    }
+    
+    
+    #contenedor-2{
+    
+        
+        height: 1555px;
+        width: 570px;
+        float: right;
+        margin-top: 800px;
+        padding: 5px;
+        
+    }
+    
+    
+    #box2-1{
+    
+        background-color: rgb(76, 99, 93);;
+        height: 300px;
+        width: 560px;
+        float: left;
+        
+        
+       
+    }
+    
+    #div2-1{
+        height: 300px;
+        width: 560px;
+    }
+    
+    #box2-2{
+    
+        background-color: rgb(23, 46, 46);
+        height: 300px;
+        width: 560px;
+        float: left;
+     
+
+    
+    }
+    
+    #div2-2{
+        height: 300px;
+        width: 560px;
+    }
+    
+    #box2-3{
+        background-color: rgb(44, 51, 60);
+        height: 300px;
+        width: 560px;
+        float: left;
+        margin-top: 5px;
+    
+     
+    
+    
+    }
+    
+    #div2-3{
+        height: 300px;
+        width: 560px;
+    }
+    
+    #box2-4{
+    
+        background-color: rgb(37, 118, 101);
+        height: 300px;
+        width: 560px;
+        float: left;
+    
+       
+        
+    }
+    
+    #div2-4{
+        height: 300px;
+        width: 560px;
+    }
+    
+    
+    #box2-5{
+    
+        background-color: rgb(37, 118, 101);
+        height: 300px;
+        width: 560px;
+        float: left;
+    
+    }
+    
+    #div2-5{
+        height: 300px;
+        width: 560px;
+    }
+   
+    
+    #portfolio{
+
+        height: 880px;
+        width: 575px;
+        
+        background-color: black;
+        position: relative;
+        padding-top: 20px;
+        padding-left: 5px;
+        align-items: center;
+
+        margin-top: 1065px;
+    
+    
+    }
+    
+    
+    #vid-1{
+        
+        width: auto;
+        height: 100px;
+
+    }
+
+
+    .cuadrilla{
+
+        
+        
+        margin: 8px;
+        
+        width: 270px;
+        height: 150px;
+        position: relative;
+        user-select: none;
+        
+        
+        background-size: 129px;
+        border-radius: 2px;
+    
+    
+    
+        background-size: 30%;
+        background-position: 50% 50%;
+        background-image: url(IMAGENES/c-nave\ 04\ 2k.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+    }
+    
+    
+    
+    #port-9{
+        display: none;
+
+        visibility: hidden;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    /*footer*/
+
+
+    #cuadro{
+    
+        width: 580px;
+        height: 200px;
+        
+        margin-top: 380px;
+        
+    }
+
+    #boton-contenedor{
+
+        width: auto;
+        height: 200px;
+        
+        
+     
+        
+        margin-top: 0px;
+        border: 0%;
+        padding: 0%;
+    
+        position: relative;
+    
+    }
+
+
+    #boton-contacto{
+    
+        padding: 10px; 
+        color: white;
+      
+        line-height: 50px;
+        text-align: right;
+        text-decoration: none;
+       
+        
+    
+        width: 100px;
+        height: 50px;
+    
+        border-radius: 10px;
+        
+        
+        margin: auto;
+        margin-left: 40%;
+        /*margin-top: auto;*/
+        
+    }
+    
+    footer{
+    
+        width: 580px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0%;
+      
+        
+    }
+    
+    #contenedor-3{
+    
+      
+        height: 160px;
+        width: 580px;
+        margin-top: 0px;
+     
+       
+    }
+    
+  
+    #a-box3-2{
+        margin-left: 35px;
+    }
+   
+    #a-box3-3{
+        margin-left:5px;
+        float: right;
+    }
+
+    
+    #contenedor-4{
+
+        background-color: rgb(0, 0, 0);
+        height: 600px;
+        margin-top: 100px;
+        
+    }
+    
+    #foo-1{
+
+        width: 260px;
+        
+        margin: 15px;
+        
+    }
+    
+    #foo-2{
+
+        background-color: rgb(181, 181, 181);
+        
+        width: 260px;
+        
+        margin: 15px;
+        
+    }
+    
+    #foo-3{
+
+        
+        float: left;
+        width: 530px;
+        height: 130px;
+        margin: 15px;
+        padding: 10px;
+        
+    }
+    
+    #redes{
+
+        
+        height: 150px;
+        width: 550px;
+        
+        
+        
+    }
+    
+    #redes a{
+
+        text-decoration: none;
+        color: black;
+       
+        line-height: 50px; 
+        text-align: center;
+    }
+
+
+
+}
